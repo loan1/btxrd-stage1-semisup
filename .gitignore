@@ -1,1 +1,36 @@
+# data folders
+/data/
+**/data/
+**/raw/
+**/processed/
+**/pseudo/
+**/runs/
 
+# model checkpoints
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# images/masks
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+
+# notebooks checkpoints
+.ipynb_checkpoints/
+
+# python cache
+__pycache__/
+*.pyc
+
+# env
+.env
