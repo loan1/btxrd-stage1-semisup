@@ -1,0 +1,5 @@
+DRIVE_ROOT = "/content/drive/MyDrive/BTXRD"
+RAW_DIR    = f"{DRIVE_ROOT}/raw"
+PROC_DIR   = f"{DRIVE_ROOT}/processed"
+PSEUDO_DIR = f"{DRIVE_ROOT}/pseudo"
+RUNS_DIR   = f"{DRIVE_ROOT}/runs"
