@@ -1,36 +1,14 @@
-# data folders
-/data/
-**/data/
-**/raw/
-**/processed/
-**/pseudo/
-**/runs/
-
-# model checkpoints
+# Data & artifacts
+data/
+runs/
+pseudo/
 *.pth
 *.pt
 *.ckpt
-*.onnx
-
-# archives
 *.zip
-*.tar
-*.tar.gz
-*.7z
 
-# images/masks
-*.jpg
-*.jpeg
-*.png
-*.tif
-*.tiff
-
-# notebooks checkpoints
-.ipynb_checkpoints/
-
-# python cache
+# Colab / cache
 __pycache__/
 *.pyc
-
-# env
-.env
+.ipynb_checkpoints/
+.DS_Store
