@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 
 class DoubleConv(nn.Module):
-    def __init__(self, in_ch, out_ch):
+    def __init__(self, in_ch: int, out_ch: int):
         super().__init__()
         self.net = nn.Sequential(
             nn.Conv2d(in_ch, out_ch, 3, padding=1),
@@ -17,7 +17,7 @@ class DoubleConv(nn.Module):
         return self.net(x)
 
 class UNet(nn.Module):
-    def __init__(self, in_ch=1, out_ch=1, base=32):
+    def __init__(self, in_ch: int = 1, out_ch: int = 1, base: int = 32):
         super().__init__()
         self.d1 = DoubleConv(in_ch, base)
         self.p1 = nn.MaxPool2d(2)
